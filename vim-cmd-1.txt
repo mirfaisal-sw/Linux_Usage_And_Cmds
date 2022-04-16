@@ -62,6 +62,18 @@ VIM Code Navigation
     
     '' and `` 	=> jump back (jump taken using marks)
     
+4) go to file command "gf": -
+    The following commands open the file under the cursor: -
+    
+    gf    => open in the same window ("goto file")
+    
+    ctrl+w gf   => open in a new tab
+    
+    ctrl+w f    => open in a new window
+    
+    
+    
+    
     
     
     
