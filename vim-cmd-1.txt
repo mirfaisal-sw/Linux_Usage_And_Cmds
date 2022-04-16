@@ -87,6 +87,11 @@ VIM Code Navigation
     key again then it will let us iterate through all files starting with initial "spi-omap2" and by 
     pressing ENTER key it will let us select a file.
     
+    Summary: -
+    
+    :e **/file-name-initials	=> searches for file name recursively from current directory
+    :e /dir1/dir2/**/file-name-initials	  => same as above, but searches inside /dir1/dir2/
+    
     
     
     
