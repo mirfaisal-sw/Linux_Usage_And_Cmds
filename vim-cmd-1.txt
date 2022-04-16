@@ -1,0 +1,12 @@
+VIM Code Navigation
+=======================
+1)CTAGS: - 
+    $ctags -R
+    => If this command is run at root directory then it created a navigation
+    file "tags", which provides very flexible navigation.
+  
+    a) vim -t "tag"
+    Example: - $vim -t title
+    => It searches for a specific tag and open the output in Vim to its definition.
+   
+   
