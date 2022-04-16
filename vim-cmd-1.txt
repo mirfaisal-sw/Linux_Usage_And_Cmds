@@ -71,6 +71,23 @@ VIM Code Navigation
     
     ctrl+w f    => open in a new window
     
+5) vim file navigation: -
+    Suppose our file is deep down in the folder hierarchy, we don't want to type in full path
+    and of course, we want to open it fast. For this there is " :e " command.
+    
+    Press :e **/<file name initials> and press <TAB> to let Vim search for all files starting 
+    with given initials and prepare a list of choices for us. We can cycle through the list using
+    <TAB> and <enter> to select a file to edit.
+    
+    Example: 
+    $vim <-|
+    In command mode run: -
+    :e **/spi-omap2
+    then hit "TAB" key. Now it will let us choose files starting with name spi-omap2. If we press TAB
+    key again then it will let us iterate through all files starting with initial "spi-omap2" and by 
+    pressing ENTER key it will let us select a file.
+    
+    
     
     
     
