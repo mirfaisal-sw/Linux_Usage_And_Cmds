@@ -29,6 +29,13 @@ VIM Code Navigation
     The tn and tp commands can be used to scroll through them, and the ts command can be used
     to "search" a list for the definition we want.
     
+    We can also search a tag by tagname.
+    Type as below in vim editor in command mode: -
+    :tag <tag name>
+    
+    Example: -
+    :tag my_spi
+    
 2) Vim and ctags: -
     We can configure vim editor so that it can work for browsing code, even if a source file
     is away from the directory from where it was created. For this we modify vimrc file.
