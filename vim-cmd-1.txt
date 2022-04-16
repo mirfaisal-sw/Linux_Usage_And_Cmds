@@ -44,6 +44,24 @@ VIM Code Navigation
     sudo vim ~/.vimrc
     set tags+=$HOME/path/of/tags/file
     
+3) Code navigation by Bookmark: -
+    
+    m[a-zA-Z]   => set a new mark
+  
+    '<mark>	 => jump to start of line of specified mark
+    
+    `<mark>	 => jump to column and line of specified mark
+    
+    :marks	 => list all marks
+    
+    :delmarks <marks>	=> delete specified marks
+    
+    `.	 => jump to position where last change occured
+    
+    ``	 => jump to last exited buffer
+    
+    '' and `` 	=> jump back (jump taken using marks)
+    
     
     
     
