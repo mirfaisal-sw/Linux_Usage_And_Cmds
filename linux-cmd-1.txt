@@ -4,6 +4,9 @@
    in which files he string "pinctrl-single" is there. It checks by reading files 
    by going into various files even present in various sub directories recursively.
    
+   Other way:-
+   $grep -inR "cs > max 2"
+   
 2.) Linux command to find a file in all directories.
     $  find . -name thisfile.txt
     
