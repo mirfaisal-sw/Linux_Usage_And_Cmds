@@ -71,7 +71,7 @@ VIM Code Navigation
     
     ctrl+w f    => open in a new window
     
-5) vim file navigation: -
+5)  vim file navigation: -
     Suppose our file is deep down in the folder hierarchy, we don't want to type in full path
     and of course, we want to open it fast. For this there is " :e " command.
     
@@ -91,6 +91,16 @@ VIM Code Navigation
     
     :e **/file-name-initials	=> searches for file name recursively from current directory
     :e /dir1/dir2/**/file-name-initials	  => same as above, but searches inside /dir1/dir2/
+    
+6)   Find current file name in VIM:-
+     There are two ways for this: -
+     a. Command 1:-
+     : f <-|
+     
+     b. Command 1:-
+     ctrl + g
+     
+     
     
     
     
