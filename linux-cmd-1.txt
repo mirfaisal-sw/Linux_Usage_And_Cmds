@@ -7,6 +7,10 @@
    Other way:-
    $grep -inR "cs > max 2"
    
+=> To search group of words with sapce use escape character "\" before space.
+   For example, to search "Multi Boot", use below command.
+   $grep -ri Multi\ Boot
+   
 2.) Linux command to find a file in all directories.
     $  find . -name thisfile.txt
     
