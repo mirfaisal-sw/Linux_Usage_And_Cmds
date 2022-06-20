@@ -14,5 +14,10 @@
 2.) Linux command to find a file in all directories.
     $  find . -name thisfile.txt
     
+3.) To see live view of a important file, use watch command. It is shown as example as
+    below.
+    $watch -n1 "cat /proc/interrupts"
+    
+    
     
     
