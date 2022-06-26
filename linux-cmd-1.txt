@@ -18,6 +18,14 @@
     below.
     $watch -n1 "cat /proc/interrupts"
     
+4.) Use "du" command to know size of file or folder.
+    Example: -
+    $du -h <folder/file name>
+    
+    $du -sh .
+    
+5.) 
+    
     
     
     
