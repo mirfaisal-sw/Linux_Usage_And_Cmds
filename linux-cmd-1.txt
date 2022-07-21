@@ -5,14 +5,14 @@
    by going into various files even present in various sub directories recursively.
    
    Other way:-
-   $grep -inR "cs > max 2"
+   $ grep -inR "cs > max 2"
    
 => To search group of words with sapce use escape character "\" before space.
    For example, to search "Multi Boot", use below command.
-   $grep -ri Multi\ Boot
+   $ grep -ri Multi\ Boot
    
 2.) Linux command to find a file in all directories.
-    $  find . -name thisfile.txt
+    $ find . -name thisfile.txt
     
 3.) To see live view of a important file, use watch command. It is shown as example as
     below.
@@ -20,11 +20,13 @@
     
 4.) Use "du" command to know size of file or folder.
     Example: -
-    $du -h <folder/file name>
+    $ du -h <folder/file name>
     
     $du -sh .
     
-5.) 
+5.) Symbolic link command: -
+    To create a symbolic link named my_link.txt to a file named my_file.txt.
+    $ ln -s my_file.txt my_link.txt
     
     
     
