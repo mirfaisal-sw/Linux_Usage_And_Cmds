@@ -1,0 +1,7 @@
+1. Home directory of user: -
+	If user is normal, then tilde symbol (~) or home directory means /home/mir or 
+	/home/$USER.
+
+	If user is root, then tilde symbol (~) or home directory means /root.
+	
+2. 
