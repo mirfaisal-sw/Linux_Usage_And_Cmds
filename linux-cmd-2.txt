@@ -4,4 +4,7 @@
 
 	If user is root, then tilde symbol (~) or home directory means /root.
 	
-2. 
+2. If while deleting or editing a file "Read-only file system" error comes, then run
+	below command.
+	
+	# mount -o remount,rw /
