@@ -8,3 +8,8 @@
 	below command.
 	
 	# mount -o remount,rw /
+	
+3. List symbolic links using "-l" option with "ls" command.
+	# ls -l 
+	O/p - This command will list files and if any file is symbolic
+	link, then it shows link file is linked to home.
