@@ -13,3 +13,23 @@
 	# ls -l 
 	O/p - This command will list files and if any file is symbolic
 	link, then it shows link file is linked to home.
+	
+4. source command: -
+    source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell         script. 
+    Syntax: source <filename> arguments
+    
+    Example: -
+    $vim example.txt
+        echo "Current directory is: "
+	pwd
+	echo "Date is: "
+	date
+	
+    $source example.txt
+    O/p - 
+    Current directory is:
+    /home/mir
+    Date is: 
+    Thu Oct 13 10:31:04 IST 2022
+    
+
