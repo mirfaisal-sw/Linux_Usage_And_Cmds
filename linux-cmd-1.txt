@@ -28,6 +28,15 @@
     To create a symbolic link named my_link.txt to a file named my_file.txt.
     $ ln -s my_file.txt my_link.txt
     
+    Other Example: -
+    $ mkdir -p a/b/c/d/my_file.txt
+    $ ln -sf a/b/c/d/my_file.txt my_link.txt
+    $ ls -l
+    O/p - 
+    my_link.txt -> a/b/c/d/my_file.txt
+    
+    
+    
     
     
     
