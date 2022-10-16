@@ -20,18 +20,18 @@
     Syntax: source <filename> arguments
     
     Example: -
-    $ vim example.txt
+        $ vim example.txt
         echo "Current directory is: "
 	pwd
 	echo "Date is: "
 	date
 	
-    $source example.txt
-    O/p - 
-    Current directory is:
-    /home/mir
-    Date is: 
-    Thu Oct 13 10:31:04 IST 2022
+       $source example.txt
+       O/p - 
+       Current directory is:
+       /home/mir
+       Date is: 
+       Thu Oct 13 10:31:04 IST 2022
     
 5. "head" linux command: -
    head command prints first 10 lines of the specified files. If more than one file name is provided 
@@ -39,22 +39,22 @@
    We can change the number of lines the head command prints by using the -n command line option.
    
    Example: -
-   # head -n 5 test1.txt test2.txt
-   O/p - 
-   ==> test1.txt <==
-   a) 1122
-   b) 2233
-   c) 3344
-   d) 4455
-   e) 5566
+   	# head -n 5 test1.txt test2.txt
+   	O/p - 
+	==> test1.txt <==
+	a) 1122
+	b) 2233
+	c) 3344
+	d) 4455
+	e) 5566
 
-   ==> test2.txt <==
-   a) a.k. shukla
-   b) anat hari
-   c) barun kumar
-   d) jai sharma
-   e) sumit singh
-   
+	==> test2.txt <==
+	a) a.k. shukla
+	b) anat hari
+	c) barun kumar
+	d) jai sharma
+	e) sumit singh
+
    
     
 
