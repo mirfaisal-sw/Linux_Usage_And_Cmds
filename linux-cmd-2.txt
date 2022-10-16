@@ -54,6 +54,9 @@
 	c) barun kumar
 	d) jai sharma
 	e) sumit singh
+	
+6. To know size of disk or partition, we use du command as below.
+	# du -sh
 
    
     
