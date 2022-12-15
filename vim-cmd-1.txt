@@ -1,6 +1,6 @@
 VIM Code Navigation
 =======================
-1) CTAGS: - 
+1)  CTAGS: - 
     $ctags -R
     => If this command is run at root directory then it created a navigation
     file "tags", which provides very flexible navigation.
@@ -100,6 +100,9 @@ VIM Code Navigation
      b. Command 1:-
      ctrl + g
      
+7)   Vim: Switch between function call and definition.
+     I. Hover cursor over any function in vim editor.
+     II. Press key - "SHIFT + *" to shift between function call and definition.
      
     
     
