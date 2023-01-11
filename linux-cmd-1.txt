@@ -35,6 +35,16 @@
     O/p - 
     my_link.txt -> a/b/c/d/my_file.txt
     
+6.) Compress and decompress commands: -
+    a.) Create .tar.gz file
+    # tar -czvf file.tar.gz <directory to be compressed>
+    
+    b.) Extract .tar.gz file
+    # tar -xzvf projects.tar.gz
+    
+    We can extract files in a given directory such as /tmp/:
+    # tar -xzvf projects.tar.gz -C /tmp/
+    
     
     
     
