@@ -104,6 +104,9 @@ VIM Code Navigation
      I. Hover cursor over any function in vim editor.
      II. Press key - "SHIFT + *" to shift between function call and definition.
      
+8) We can see path any file opened on vim as below.
+   :!pwd
+     
     
     
     
