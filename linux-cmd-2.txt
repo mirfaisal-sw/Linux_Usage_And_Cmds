@@ -58,6 +58,7 @@
 6. To know size of disk or partition, we use du command as below.
 	# du -sh
 
+7. 
    
     
 
