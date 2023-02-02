@@ -58,7 +58,32 @@
 6. To know size of disk or partition, we use du command as below.
 	# du -sh
 
-7. 
+7. Find directory and files in linux: -
+
+	a. Find files.
+	# find . -iname <file_name>
+	Ex - # find . -iname spi.c
+	
+	Other way: -
+	# find . -type f -name spi.c
+	
+	b. Find directory: -
+	# find . -iname <directory_name>
+	Ex - # find . -iname wireless
+	
+	Other way: -
+	# find -type d -name wireless
+	
+	c. Search all directories from /root that contains the string "Linux", case insensitive:
+	# find  /root -type d -iname "*linux*"
+	
+	[Note - Here option -i makes it case insensitive.]
+	
+	Syntax: -
+	# find /dir/path/to/look/up -name "dir-name-here"
+	# find /dir/path/to/look/up -name "file-name-here"
+	
+	
    
     
 
