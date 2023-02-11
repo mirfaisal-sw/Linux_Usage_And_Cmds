@@ -106,6 +106,12 @@ VIM Code Navigation
      
 8) We can see path any file opened on vim as below.
    :!pwd
+   
+9) We can see tabs and spaces in a file using below command. As it is important while
+   resolving checkpatch errors.
+   : set list
+   
+   To disable, use - :set nolist
      
     
     
