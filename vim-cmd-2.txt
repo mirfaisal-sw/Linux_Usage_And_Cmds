@@ -1,0 +1,4 @@
+
+1) To toggle between opening and closing curly braces.
+	Hover the cursor over curly brace "{" or "}" and then
+	press "%" key to toggle the cursor.
