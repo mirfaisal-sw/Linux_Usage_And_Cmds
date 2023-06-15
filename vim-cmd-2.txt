@@ -2,3 +2,20 @@
 1) To toggle between opening and closing curly braces.
 	Hover the cursor over curly brace "{" or "}" and then
 	press "%" key to toggle the cursor.
+
+2) Vim command to find and replace: -
+
+2.1.) :s/foo/bar/gc
+Output: - 
+	replace with bar (y/n/a/q/l/^E/^Y)?
+Press y to replace the match or l to replace the match and quit. Press n to skip the match and q or
+Esc to quit substitution. The a option substitutes the match and all remaining occurrences of the match.
+To scroll the screen down, use CTRL+Y, and to scroll up, use CTRL+E.
+
+2.2.) :%s/foo/bar/gc
+To search and replace the pattern in the entire file, use the percentage character % as a range. This character
+indicates a range from the first to the last line of the file.
+
+
+
+
