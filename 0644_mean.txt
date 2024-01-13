@@ -34,8 +34,13 @@ rwx oct    meaning
 110 06   = read & write
 111 07   = read & write & execute
 
-So 0644 is:
+Bit mask meaning: -
+---------------------
+Bit 2: Read
+Bit 1: Write
+Bit 0: Execute
 
+So 0644 is:
 * User: read & write
 * Group: read
 * Other: read
