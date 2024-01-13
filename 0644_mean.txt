@@ -4,15 +4,20 @@ Permission octal code encoding and decoding: -
 ===============================================
 There are 3x3 bit flags for a mode:
 
-(owning) User
+User
+------
 read
 write
 execute
+
 Group
+------
 read
 write
 execute
+
 Other
+-------
 read
 write
 execute
@@ -31,7 +36,7 @@ rwx oct    meaning
 
 So 0644 is:
 
-* (owning) User: read & write
+* User: read & write
 * Group: read
 * Other: read
 
