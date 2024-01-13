@@ -1,0 +1,37 @@
+
+
+Permission octal code encoding and decoding: -
+===============================================
+There are 3x3 bit flags for a mode:
+
+(owning) User
+read
+write
+execute
+Group
+read
+write
+execute
+Other
+read
+write
+execute
+
+So each triple encodes nicely as an octal digit.
+
+rwx oct    meaning
+--- ---    -------
+001 01   = execute
+010 02   = write
+011 03   = write & execute
+100 04   = read
+101 05   = read & execute
+110 06   = read & write
+111 07   = read & write & execute
+
+So 0644 is:
+
+* (owning) User: read & write
+* Group: read
+* Other: read
+
